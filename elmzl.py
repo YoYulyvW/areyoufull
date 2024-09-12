@@ -139,7 +139,7 @@ class LYB:
         self.name = self.uid
 
     def xsign(self, api, data, wua, v):
-        url = "http://v1.message.mf0a.cn/commonApi/getelmsign?token=dahuang419478052"
+        url = "http://192.168.1.9:9999/api/getXSign"
         body = {
             "data": data,
             "api": api,
