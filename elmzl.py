@@ -9,7 +9,7 @@ import datetime
 
 host = 'https://acs.m.goofish.com'
 
-zlck = os.environ.get('ZL_CK')
+zlck = os.environ.get('ZL_CK', "")
 
 ck = ""
 
